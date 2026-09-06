@@ -128,6 +128,19 @@
   <img src="https://img.shields.io/badge/PowerShell-Scripting-5391FE?style=for-the-badge" alt="PowerShell" />
 </p>
 
+<details>
+<summary><b>More tools I've used</b> (click to expand)</summary>
+<br>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Tailscale-VPN%20Mesh-242424?style=for-the-badge&logo=tailscale&logoColor=white" alt="Tailscale" />
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+</p>
+
+No icon exists for these, but I've used them directly: git-filter-repo (rewriting commit history to strip leaked infrastructure details), ssacli (HP Smart Array RAID management), cloud-init (VM template provisioning), iptables/nftables (NAT rules, Calico policy debugging).
+
+</details>
+
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D2818,100:22C55E&height=3" alt="" width="100%" /></p>
 
 ### Featured project
@@ -140,6 +153,24 @@
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=Under-Taker1812&hide_border=true&background=0D2818&border=22C55E&stroke=22C55E&ring=22C55E&fire=22C55E&currStreakLabel=22C55E&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9CA3AF" alt="GitHub Streak" />
+</p>
+
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D2818,100:22C55E&height=3" alt="" width="100%" /></p>
+
+### Contribution snake
+
+<!--
+  Requires .github/workflows/snake.yml to be added to this repo and run at least once
+  (see snake-workflow.yml delivered alongside this README). Until the "output" branch
+  exists, this image will show broken — that's expected before first run.
+-->
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Under-Taker1812/Under-Taker1812/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Under-Taker1812/Under-Taker1812/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Under-Taker1812/Under-Taker1812/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
