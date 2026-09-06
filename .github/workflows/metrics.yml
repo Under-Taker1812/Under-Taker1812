@@ -24,9 +24,9 @@ jobs:
           # Top languages used across repos
           plugin_languages: yes
 
-          # GitHub Achievements (Pull Shark, Galaxy Brain...) rendered into the image
-          plugin_achievements: yes
-          plugin_achievements_display: compact
+          # plugin_achievements disabled — errors reliably ("Unexpected error"),
+          # known fragile plugin (GitHub has no official Achievements API).
+          # See the Achievements badge in the bio section instead.
 
           # Notable contributions to other people's projects
           plugin_notable: yes
