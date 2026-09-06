@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,100:7aa2f7&height=200&section=header&text=Dear%20visitor%2C%20I'm%20Undertaker&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="header banner" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D2818,100:22C55E&height=200&section=header&text=Dear%20visitor%2C%20I'm%20Undertaker&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="header banner" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&color=7AA2F7&center=true&vCenter=true&width=650&lines=DevOps+%2F+Platform+trainee;Running+production+infra+on+real+hardware;Proxmox+%7C+Ceph+%7C+Kubernetes+%7C+Ansible" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&color=22C55E&center=true&vCenter=true&width=650&lines=DevOps+%2F+Platform+trainee;Running+production+infra+on+real+hardware;Proxmox+%7C+Ceph+%7C+Kubernetes+%7C+Ansible" alt="typing" />
 </p>
 
 <table width="100%">
@@ -11,9 +11,9 @@
     <td width="60%" valign="top">
       <p>2nd-year CS student at UIT, Vietnam, currently interning in production infrastructure. I work hands-on across virtualization, Kubernetes, automation, observability, and networking on physical hardware.</p>
       <p>
-        <img src="https://visitor-badge.laobi.icu/badge?page_id=Under-Taker1812.Under-Taker1812&right_color=7AA2F7&left_color=1a1b26" alt="profile views" />
+        <img src="https://visitor-badge.laobi.icu/badge?page_id=Under-Taker1812.Under-Taker1812&right_color=22C55E&left_color=0D2818" alt="profile views" />
         <a href="https://github.com/Under-Taker1812">
-          <img src="https://img.shields.io/github/followers/Under-Taker1812?style=flat-square&logo=github&label=followers&color=7AA2F7&labelColor=1a1b26" alt="GitHub followers" />
+          <img src="https://img.shields.io/github/followers/Under-Taker1812?style=flat-square&logo=github&label=followers&color=22C55E&labelColor=0D2818" alt="GitHub followers" />
         </a>
       </p>
       <p>
@@ -42,20 +42,23 @@
   </tr>
 </table>
 
----
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D2818,100:22C55E&height=3" alt="" width="100%" /></p>
 
 ### Journey
 
-| When | Milestone |
-|---|---|
-| 2024 | Started Computer Science at UIT, Vietnam |
-| 2026-06 | Began internship: production infrastructure (Proxmox, Ceph, Rancher/RKE2) |
-| 2026-08 | Published `proxmox-lab-portfolio`, a fully documented open-source infrastructure project |
-| 2026-09 | Preparing for CKA and AWS Solutions Architect Associate |
-| Next | CCNA, Terraform Associate, service mesh (Istio/Linkerd) |
-| Target | Cloud Security Engineer / Platform Engineer |
+<p align="left">I started Computer Science at UIT in 2024. In June 2026 I began an internship running production infrastructure: a 4-node Proxmox cluster, Ceph storage, and a Rancher/RKE2 Kubernetes cluster on physical hardware. I'm now studying for the CKA and AWS Solutions Architect Associate.</p>
 
----
+<p align="left"><img src="https://img.shields.io/badge/NOW-CKA%20%2B%20AWS%20SAA-22C55E?style=for-the-badge&logo=kubernetes&logoColor=0D2818" alt="now" /></p>
+
+<p align="right">In August 2026 I published proxmox-lab-portfolio, a fully documented open-source write-up of that infrastructure. My Ansible playbooks deploy the whole cluster through a single site.yml. Networking is my strongest starting point from school, and CCNA, Terraform, and a service mesh lab come next.</p>
+
+<p align="right"><img src="https://img.shields.io/badge/NEXT-CCNA%20%7C%20Terraform%20%7C%20Service%20Mesh-16A34A?style=for-the-badge&logo=terraform&logoColor=ffffff" alt="next" /></p>
+
+<p align="left">I'm working toward two roles at once: Cloud Security Engineer and Platform Engineer. Both need the same Kubernetes and cloud foundation before they split into CKS and AWS Security Specialty on one side, Terraform and GitOps on the other.</p>
+
+<p align="left"><img src="https://img.shields.io/badge/GOAL-Cloud%20Security%20%26%20Platform%20Engineer-065F46?style=for-the-badge&logo=cloudflare&logoColor=ffffff" alt="goal" /></p>
+
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D2818,100:22C55E&height=3" alt="" width="100%" /></p>
 
 ### Core strengths
 
@@ -118,26 +121,20 @@
   <img src="https://img.shields.io/badge/PowerShell-Scripting-5391FE?style=for-the-badge" alt="PowerShell" />
 </p>
 
----
-
-### Certification roadmap
-
-<p align="center">
-  <img src="https://img.shields.io/badge/NOW-CKA%20%2B%20AWS%20SAA-9ECE6A?style=for-the-badge&logo=kubernetes&logoColor=1a1b26" alt="now" />
-  <img src="https://img.shields.io/badge/NEXT-CCNA%20%7C%20Terraform%20%7C%20Service%20Mesh-7AA2F7?style=for-the-badge&logo=terraform&logoColor=1a1b26" alt="next" />
-  <img src="https://img.shields.io/badge/GOAL-Cloud%20Security%20%26%20Platform%20Engineer-BB9AF7?style=for-the-badge&logo=cloudflare&logoColor=1a1b26" alt="goal" />
-</p>
-
----
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D2818,100:22C55E&height=3" alt="" width="100%" /></p>
 
 ### Featured project
 
 **[proxmox-lab-portfolio](https://github.com/Under-Taker1812/proxmox-lab-portfolio)** — 4-node Proxmox + Ceph + Rancher/RKE2 lab, documented end to end with the real bugs I hit and how I fixed each one.
 
----
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D2818,100:22C55E&height=3" alt="" width="100%" /></p>
 
 ### GitHub Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Under-Taker1812&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=Under-Taker1812&hide_border=true&background=0D2818&border=22C55E&stroke=22C55E&ring=22C55E&fire=22C55E&currStreakLabel=22C55E&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9CA3AF" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D2818,100:22C55E&height=100&section=footer" alt="footer banner" width="100%" />
 </p>
