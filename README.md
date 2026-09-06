@@ -33,14 +33,7 @@
       </p>
     </td>
     <td width="40%" valign="top" align="center">
-      <!--
-        Not connected yet. To make this real:
-        1. https://spotify-recently-played.jeffreyca.workers.dev
-        2. Click "Connect with Spotify", log in with your account
-        3. Theme "Tokyo Night", Tracks = 5
-        4. Copy the snippet it gives you, paste it here instead of this whole <td>
-      -->
-      <img src="https://img.shields.io/badge/Spotify-connect%20your%20account%20first-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="spotify placeholder" />
+      <img src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31h7dfjtsfyi3cw2twhazexi7ytm&theme=spotify&count=10&width=580&radius=20&unique=1&duration=1&album=1&footer=wave" alt="Spotify recently played" width="100%" />
     </td>
   </tr>
 </table>
