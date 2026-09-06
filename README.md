@@ -44,18 +44,57 @@
 
 ### Core strengths
 
-- **Virtualization & storage** — Proxmox hyperconverged clusters, Ceph distributed storage (CRUSH, monmap recovery, CSI RBD)
-- **Container orchestration** — Kubernetes via Rancher/RKE2, Calico CNI, etcd operations
-- **Automation** — Ansible (multi-playbook deployments driven by a single site.yml), Python scripting
-- **Observability** — Prometheus, Grafana, AlertManager, Elasticsearch, Kibana, Fluent-bit
-- **Networking** — VLANs, OSPF, RIP, ACLs, NAT, Cisco switching, VPN, NGINX reverse proxy
-- **Security tooling** — Wazuh SIEM, OSSEC HIDS, Linux firewalling
-- **Cloud** — AWS (EC2, RDS, CI/CD)
+**Virtualization & storage** — hyperconverged clusters, CRUSH, monmap recovery, CSI RBD
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=kubernetes,ansible,aws,docker,grafana,prometheus,elasticsearch,git,github,py,linux,ubuntu,bash,powershell,nginx,windows&perline=16" alt="Tech Stack Icons" />
-  </a>
+  <img src="https://img.shields.io/badge/Proxmox-VE-E57000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox" />
+  <img src="https://img.shields.io/badge/Ceph-Storage-EF5C55?style=for-the-badge&logo=ceph&logoColor=white" alt="Ceph" />
+</p>
+
+**Container orchestration** — cluster provisioning, RBAC, workload management
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Kubernetes-RKE2-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Rancher-Cluster%20Ops-0075A8?style=for-the-badge&logo=rancher&logoColor=white" alt="Rancher" />
+  <img src="https://img.shields.io/badge/Docker-Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</p>
+
+**Automation & scripting** — 14 playbooks driven by a single site.yml
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Ansible-Automation-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="Ansible" />
+  <img src="https://img.shields.io/badge/Python-Scripting-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-F05032?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</p>
+
+**Observability** — dashboards, alerting rules, log pipelines
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Grafana-Dashboards-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
+  <img src="https://img.shields.io/badge/Prometheus-Metrics-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
+  <img src="https://img.shields.io/badge/Elasticsearch-Search-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch" />
+  <img src="https://img.shields.io/badge/Kibana-Logs-005571?style=for-the-badge&logo=kibana&logoColor=white" alt="Kibana" />
+  <img src="https://img.shields.io/badge/Fluent%20Bit-Shipping-49BDA5?style=for-the-badge&logo=fluentbit&logoColor=white" alt="Fluent Bit" />
+</p>
+
+**Networking & security** — VLANs, OSPF, RIP, ACLs, NAT, SIEM, host hardening
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Cisco-VLAN%20%2F%20OSPF%20%2F%20ACL-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco networking" />
+  <img src="https://img.shields.io/badge/NGINX-Reverse%20Proxy-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="NGINX" />
+  <img src="https://img.shields.io/badge/Wazuh-SIEM%20%2F%20OSSEC-3AB0FF?style=for-the-badge&logo=wazuh&logoColor=white" alt="Wazuh" />
+  <img src="https://img.shields.io/badge/Linux-Firewalling-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+</p>
+
+**Cloud & OS** — EC2, RDS, CI/CD pipelines
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-EC2%20%2F%20RDS%20%2F%20CI--CD-232F3E?style=for-the-badge" alt="AWS" />
+  <img src="https://img.shields.io/badge/Ubuntu-Server-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
+  <img src="https://img.shields.io/badge/Windows-Server-0078D6?style=for-the-badge" alt="Windows" />
+  <img src="https://img.shields.io/badge/Bash-Scripting-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/PowerShell-Scripting-5391FE?style=for-the-badge" alt="PowerShell" />
 </p>
 
 ---
