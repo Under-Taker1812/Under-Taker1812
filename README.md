@@ -46,17 +46,24 @@
 
 ### Journey
 
-<p align="left">I started Computer Science at UIT in 2024. In June 2026 I began an internship running production infrastructure: a 4-node Proxmox cluster, Ceph storage, and a Rancher/RKE2 Kubernetes cluster on physical hardware. I'm now studying for the CKA and AWS Solutions Architect Associate.</p>
-
-<p align="left"><img src="https://img.shields.io/badge/NOW-CKA%20%2B%20AWS%20SAA-22C55E?style=for-the-badge&logo=kubernetes&logoColor=0D2818" alt="now" /></p>
-
-<p align="right">In August 2026 I published proxmox-lab-portfolio, a fully documented open-source write-up of that infrastructure. My Ansible playbooks deploy the whole cluster through a single site.yml. Networking is my strongest starting point from school, and CCNA, Terraform, and a service mesh lab come next.</p>
-
-<p align="right"><img src="https://img.shields.io/badge/NEXT-CCNA%20%7C%20Terraform%20%7C%20Service%20Mesh-16A34A?style=for-the-badge&logo=terraform&logoColor=ffffff" alt="next" /></p>
-
-<p align="left">I'm working toward two roles at once: Cloud Security Engineer and Platform Engineer. Both need the same Kubernetes and cloud foundation before they split into CKS and AWS Security Specialty on one side, Terraform and GitOps on the other.</p>
-
-<p align="left"><img src="https://img.shields.io/badge/GOAL-Cloud%20Security%20%26%20Platform%20Engineer-065F46?style=for-the-badge&logo=cloudflare&logoColor=ffffff" alt="goal" /></p>
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <img src="https://img.shields.io/badge/NOW-CKA%20%2B%20AWS%20SAA-22C55E?style=for-the-badge&logo=kubernetes&logoColor=0D2818" alt="now" />
+    </td>
+    <td width="33%" valign="top" align="center">
+      <img src="https://img.shields.io/badge/NEXT-CCNA%20%7C%20Terraform%20%7C%20Service%20Mesh-16A34A?style=for-the-badge&logo=terraform&logoColor=ffffff" alt="next" />
+    </td>
+    <td width="33%" valign="top" align="center">
+      <img src="https://img.shields.io/badge/GOAL-Cloud%20Security%20%26%20Platform%20Engineer-065F46?style=for-the-badge&logo=cloudflare&logoColor=ffffff" alt="goal" />
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">I started Computer Science at UIT in 2024. In June 2026 I began an internship running production infrastructure: a 4-node Proxmox cluster, Ceph storage, and a Rancher/RKE2 Kubernetes cluster on physical hardware. I'm now studying for the CKA and AWS Solutions Architect Associate.</td>
+    <td width="33%" valign="top">In August 2026 I published proxmox-lab-portfolio, a fully documented open-source write-up of that infrastructure. My Ansible playbooks deploy the whole cluster through a single site.yml. Networking is my strongest starting point from school, and CCNA, Terraform, and a service mesh lab come next.</td>
+    <td width="33%" valign="top">I'm working toward two roles at once: Cloud Security Engineer and Platform Engineer. Both need the same Kubernetes and cloud foundation before they split into CKS and AWS Security Specialty on one side, Terraform and GitOps on the other.</td>
+  </tr>
+</table>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D2818,100:22C55E&height=3" alt="" width="100%" /></p>
 
