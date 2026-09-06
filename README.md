@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Huỳnh Ân</h1>
+<h1 align="center">Dear visitor, I'm Undertaker</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&color=7AA2F7&center=true&vCenter=true&width=650&lines=DevOps+%2F+Platform+trainee;Running+production+infra+on+real+hardware;Proxmox+%7C+Ceph+%7C+Kubernetes+%7C+Ansible" alt="typing" />
@@ -70,13 +70,13 @@
 
 ---
 
-### 📌 Featured project
+### Featured project
 
 **[proxmox-lab-portfolio](https://github.com/Under-Taker1812/proxmox-lab-portfolio)** — 4-node Proxmox + Ceph + Rancher/RKE2 lab, documented end to end with the real bugs I hit and how I fixed each one.
 
 ---
 
-### 📊 GitHub Streak
+### GitHub Streak
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=Under-Taker1812&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
