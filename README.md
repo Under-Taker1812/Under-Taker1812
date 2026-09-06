@@ -15,65 +15,126 @@
         </a>
       </p>
       <p>
-        <!-- Replace with your real links when ready -->
+        <!-- Replace with your real links -->
         <a href="https://www.linkedin.com/in/REPLACE_ME/" target="_blank">
           <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="24" alt="linkedin" />
         </a>
-        <a href="mailto:REPLACE_ME@gmail.com">
-          <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="24" alt="email" />
+        <a href="mailto:24560064@gm.uit.edu.vn">
+          <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="24" alt="email" />
         </a>
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/NOW-CKA%20%2B%20AWS%20SAA-9ECE6A?style=for-the-badge&logo=kubernetes&logoColor=1a1b26" alt="now" /><br/>
-        <img src="https://img.shields.io/badge/NEXT-CCNA%20%7C%20Terraform%20%7C%20Service%20Mesh-7AA2F7?style=for-the-badge&logo=terraform&logoColor=1a1b26" alt="next" /><br/>
-        <img src="https://img.shields.io/badge/GOAL-Cloud%20Security%20%26%20Platform%20Engineer-BB9AF7?style=for-the-badge&logo=cloudflare&logoColor=1a1b26" alt="goal" />
+        <a href="https://www.facebook.com/share/1CcW5eCW6C/" target="_blank">
+          <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&style=for-the-badge" height="24" alt="facebook" />
+        </a>
+        <img src="https://img.shields.io/static/v1?message=huynhan4210&logo=discord&label=Discord&color=7289DA&logoColor=white&style=for-the-badge" height="24" alt="discord" />
       </p>
     </td>
     <td width="40%" valign="top" align="center">
-      <!-- Replace REPLACE_ME with your Spotify user ID from Share > Copy link to profile -->
-      <a href="https://open.spotify.com/user/REPLACE_ME">
-        <img src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=REPLACE_ME&count=5&width=350" alt="Spotify recently played" width="100%" />
-      </a>
+      <!--
+        TODO: this widget needs YOUR OAuth authorization, a public profile link isn't enough.
+        1. Go to https://spotify-recently-played.jeffreyca.workers.dev
+        2. Click "Connect with Spotify" and log in with your own account
+        3. Pick theme "Tokyo Night", Tracks = 5
+        4. Click "Copy snippet" and paste it here, replacing this whole <td>...</td> block
+      -->
+      <img src="https://img.shields.io/badge/Spotify-connect%20your%20account%20first-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="spotify placeholder" />
     </td>
   </tr>
 </table>
 
 ---
 
-### 🗺️ Where I stand — a map, not a list
+<table width="100%">
+  <thead>
+    <tr><th align="left">My Journey</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <p align="left">I'm on a journey to become a <b>DevOps / Platform engineer</b> who can build, automate, and secure real systems — not just pass exams. Turning a 3am production incident into a documented runbook so it never repeats is more satisfying to me than any tutorial checkbox.</p>
+        <p align="left">
+          <img src="https://img.shields.io/badge/NOW-CKA%20%2B%20AWS%20SAA-9ECE6A?style=for-the-badge&logo=kubernetes&logoColor=1a1b26" alt="now" />
+        </p>
+        <p align="right">Right now I'm hands-deep in real hardware: a <b>4-node Proxmox cluster</b>, <b>Ceph</b> distributed storage, and a <b>Rancher/RKE2</b> cluster running production-style workloads during my internship. Every bug becomes a written case study, not a forgotten Slack thread.</p>
+        <p align="right">
+          <img src="https://img.shields.io/badge/NEXT-CCNA%20%7C%20Terraform%20%7C%20Service%20Mesh-7AA2F7?style=for-the-badge&logo=terraform&logoColor=1a1b26" alt="next" />
+        </p>
+        <p align="left">Longer term I'm building toward two tracks at once — <b>Cloud Security Engineer</b> and <b>Platform Engineer</b> — since both share the same Kubernetes/cloud foundation before splitting into specialties.</p>
+        <p align="left">
+          <img src="https://img.shields.io/badge/GOAL-Cloud%20Security%20%26%20Platform%20Engineer-BB9AF7?style=for-the-badge&logo=cloudflare&logoColor=1a1b26" alt="goal" />
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### 🗺️ Where I stand
+
+> GitHub doesn't render Mermaid `mindmap` diagrams (platform limitation, verified) — this is a `graph` with clustered subgraphs instead, which renders reliably.
 
 ```mermaid
-graph TD
-    ME((Huỳnh Ân)):::me
-    ME --> INFRA[Infra]:::cat
-    ME --> NET[Network]:::cat
-    ME --> OBS[Observability]:::cat
-    ME --> AUTO[Automation]:::cat
-    ME --> CLOUD[Cloud]:::cat
-    ME --> SEC[Security]:::cat
+graph LR
+    ME(("Huỳnh Ân")):::me
 
-    INFRA --> PROXMOX["Proxmox<br/>4-node HCI"]:::prod
-    INFRA --> CEPH["Ceph<br/>8 OSD ~7TB"]:::prod
-    INFRA --> RANCHER["Rancher/RKE2<br/>1 CP + 3 workers"]:::prod
+    subgraph INFRA[" Infra "]
+        direction TB
+        PROXMOX["Proxmox<br/>4-node HCI"]:::prod
+        CEPH["Ceph<br/>8 OSD · ~7TB"]:::prod
+        RANCHER["Rancher / RKE2<br/>1 CP + 3 workers"]:::prod
+    end
 
-    NET --> CALICO["Calico CNI<br/>VTEP/nftables"]:::prod
+    subgraph NET[" Network "]
+        direction TB
+        CALICO["Calico CNI<br/>VTEP & nftables"]:::prod
+    end
 
-    OBS --> PROM[Prometheus]:::prod
-    OBS --> GRAF[Grafana]:::prod
-    OBS --> ALERT[AlertManager]:::prod
+    subgraph OBS[" Observability "]
+        direction TB
+        PROM["Prometheus"]:::prod
+        GRAF["Grafana"]:::prod
+        ALERT["AlertManager"]:::prod
+    end
 
-    AUTO --> ANSIBLE["Ansible<br/>in progress"]:::learn
+    subgraph AUTO[" Automation "]
+        direction TB
+        ANSIBLE["Ansible<br/>in progress"]:::learn
+    end
 
-    CLOUD --> AWS["AWS ~30%"]:::learn
+    subgraph CLOUD[" Cloud "]
+        direction TB
+        AWS["AWS<br/>~30%"]:::learn
+    end
 
-    SEC --> CKS["CKS track<br/>roadmap"]:::plan
+    subgraph SEC[" Security "]
+        direction TB
+        CKS["CKS track<br/>roadmap"]:::plan
+    end
 
-    classDef me fill:#7aa2f7,stroke:#1a1b26,color:#1a1b26,font-weight:bold
-    classDef cat fill:#bb9af7,stroke:#1a1b26,color:#1a1b26
+    ME --> INFRA
+    ME --> NET
+    ME --> OBS
+    ME --> AUTO
+    ME --> CLOUD
+    ME --> SEC
+
+    classDef me fill:#7aa2f7,stroke:#1a1b26,color:#1a1b26,font-weight:bold,font-size:16px
     classDef prod fill:#9ece6a,stroke:#1a1b26,color:#1a1b26
     classDef learn fill:#ff9e64,stroke:#1a1b26,color:#1a1b26
     classDef plan fill:#565f89,stroke:#1a1b26,color:#ffffff
 ```
+
+---
+
+### 🎓 Certifications
+
+<!-- Once you earn a cert, go to its Credly badge page > Share > Embed, and swap the image/link below. Keeping these as "not earned yet" until then — no faking. -->
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CKA-not%20earned%20yet-565F89?style=for-the-badge&logo=kubernetes&logoColor=white" alt="CKA placeholder" />
+  <img src="https://img.shields.io/badge/AWS%20SAA-not%20earned%20yet-565F89?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS SAA placeholder" />
+  <img src="https://img.shields.io/badge/CKS-not%20earned%20yet-565F89?style=for-the-badge&logo=kubernetes&logoColor=white" alt="CKS placeholder" />
+</p>
 
 ---
 
