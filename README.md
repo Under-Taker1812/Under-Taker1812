@@ -27,6 +27,9 @@
           <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&style=for-the-badge" height="24" alt="facebook" />
         </a>
         <img src="https://img.shields.io/static/v1?message=huynhan4210&logo=discord&label=Discord&color=7289DA&logoColor=white&style=for-the-badge" height="24" alt="discord" />
+        <a href="https://github.com/Under-Taker1812?tab=achievements" target="_blank">
+          <img src="https://img.shields.io/static/v1?message=Achievements&logo=github&label=&color=22C55E&logoColor=white&style=for-the-badge" height="24" alt="achievements" />
+        </a>
       </p>
     </td>
     <td width="40%" valign="top" align="center">
@@ -171,6 +174,21 @@ No icon exists for these, but I've used them directly: git-filter-repo (rewritin
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Under-Taker1812/Under-Taker1812/output/github-contribution-grid-snake.svg" />
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Under-Taker1812/Under-Taker1812/output/github-contribution-grid-snake.svg" width="100%" />
   </picture>
+</p>
+
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D2818,100:22C55E&height=3" alt="" width="100%" /></p>
+
+### Metrics dashboard
+
+<!--
+  Requires .github/workflows/metrics.yml (delivered alongside this README) plus a
+  METRICS_TOKEN repo secret (classic PAT, scopes: repo, read:user). The action commits
+  github-metrics.svg to this repo's main branch on its own schedule — this image shows
+  broken until the workflow has run at least once.
+-->
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Under-Taker1812/Under-Taker1812/main/github-metrics.svg" alt="metrics dashboard" width="100%" />
 </p>
 
 <p align="center">
