@@ -1,4 +1,6 @@
-<h1 align="center">Dear visitor, I'm Undertaker</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,100:7aa2f7&height=200&section=header&text=Dear%20visitor%2C%20I'm%20Undertaker&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="header banner" width="100%" />
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&color=7AA2F7&center=true&vCenter=true&width=650&lines=DevOps+%2F+Platform+trainee;Running+production+infra+on+real+hardware;Proxmox+%7C+Ceph+%7C+Kubernetes+%7C+Ansible" alt="typing" />
@@ -42,7 +44,26 @@
 
 ---
 
+### Journey
+
+| When | Milestone |
+|---|---|
+| 2024 | Started Computer Science at UIT, Vietnam |
+| 2026-06 | Began internship: production infrastructure (Proxmox, Ceph, Rancher/RKE2) |
+| 2026-08 | Published `proxmox-lab-portfolio`, a fully documented open-source infrastructure project |
+| 2026-09 | Preparing for CKA and AWS Solutions Architect Associate |
+| Next | CCNA, Terraform Associate, service mesh (Istio/Linkerd) |
+| Target | Cloud Security Engineer / Platform Engineer |
+
+---
+
 ### Core strengths
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=kubernetes,ansible,aws,docker,grafana,prometheus,elasticsearch,git,github,py,linux,ubuntu,bash,powershell,nginx,windows&perline=16" alt="Tech Stack Icons" />
+  </a>
+</p>
 
 **Virtualization & storage** — hyperconverged clusters, CRUSH, monmap recovery, CSI RBD
 
