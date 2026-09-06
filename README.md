@@ -188,7 +188,7 @@ No icon exists for these, but I've used them directly: git-filter-repo (rewritin
 -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Under-Taker1812/Under-Taker1812/main/github-metrics.svg" alt="metrics dashboard" width="100%" />
+  <img src="https://raw.githubusercontent.com/Under-Taker1812/Under-Taker1812/main/github-metrics.svg" alt="metrics dashboard" width="800" />
 </p>
 
 <p align="center">
