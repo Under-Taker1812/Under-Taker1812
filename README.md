@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Huỳnh Ân</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&color=7AA2F7&center=true&vCenter=true&width=650&lines=DevOps+%2F+Platform+trainee+today;Aspiring+Cloud+Security+Engineer+tomorrow;Running+real+infra+on+physical+hardware" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&color=7AA2F7&center=true&vCenter=true&width=650&lines=DevOps+%2F+Platform+trainee;Running+production+infra+on+real+hardware;Proxmox+%7C+Ceph+%7C+Kubernetes+%7C+Ansible" alt="typing" />
 </p>
 
 <table width="100%">
   <tr>
     <td width="60%" valign="top">
-      <p>2nd-year CS student @ UIT, Vietnam — interning and building production-grade infrastructure on real hardware, not just tutorial labs. I break things, write down why, and fix them properly.</p>
+      <p>2nd-year CS student at UIT, Vietnam. I intern at a company and run production infrastructure on real hardware. When something breaks, I document the root cause and fix it properly.</p>
       <p>
         <img src="https://visitor-badge.laobi.icu/badge?page_id=Under-Taker1812.Under-Taker1812&right_color=7AA2F7&left_color=1a1b26" alt="profile views" />
         <a href="https://github.com/Under-Taker1812">
@@ -15,7 +15,6 @@
         </a>
       </p>
       <p>
-        <!-- Replace with your real links -->
         <a href="https://www.linkedin.com/in/REPLACE_ME/" target="_blank">
           <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="24" alt="linkedin" />
         </a>
@@ -50,15 +49,15 @@
   <tbody>
     <tr>
       <td>
-        <p align="left">I'm on a journey to become a <b>DevOps / Platform engineer</b> who can build, automate, and secure real systems — not just pass exams. Turning a 3am production incident into a documented runbook so it never repeats is more satisfying to me than any tutorial checkbox.</p>
+        <p align="left">I run a 4-node Proxmox cluster with Ceph storage (8 OSDs, ~7TB) and a Rancher/RKE2 Kubernetes cluster on physical hardware during my internship. I've debugged Calico VTEP conflicts and recovered etcd from a NOSPACE alarm. Prometheus and Grafana cover monitoring for the whole stack. Right now I'm studying for the CKA and AWS SAA to put a certification behind work I already do.</p>
         <p align="left">
           <img src="https://img.shields.io/badge/NOW-CKA%20%2B%20AWS%20SAA-9ECE6A?style=for-the-badge&logo=kubernetes&logoColor=1a1b26" alt="now" />
         </p>
-        <p align="right">Right now I'm hands-deep in real hardware: a <b>4-node Proxmox cluster</b>, <b>Ceph</b> distributed storage, and a <b>Rancher/RKE2</b> cluster running production-style workloads during my internship. Every bug becomes a written case study, not a forgotten Slack thread.</p>
+        <p align="right">My Ansible playbooks deploy that cluster end to end — 14 playbooks under one site.yml, including automated teardown and rebuild. Networking is my strongest starting point from school: VLANs, OSPF, RIP, ACLs, NAT. CCNA, Terraform, and a service mesh lab are next.</p>
         <p align="right">
           <img src="https://img.shields.io/badge/NEXT-CCNA%20%7C%20Terraform%20%7C%20Service%20Mesh-7AA2F7?style=for-the-badge&logo=terraform&logoColor=1a1b26" alt="next" />
         </p>
-        <p align="left">Longer term I'm building toward two tracks at once — <b>Cloud Security Engineer</b> and <b>Platform Engineer</b> — since both share the same Kubernetes/cloud foundation before splitting into specialties.</p>
+        <p align="left">I'm building toward two roles at once: Cloud Security Engineer and Platform Engineer. Both need the same Kubernetes and cloud foundation before they split — CKS and AWS Security Specialty on one side, Terraform and GitOps on the other.</p>
         <p align="left">
           <img src="https://img.shields.io/badge/GOAL-Cloud%20Security%20%26%20Platform%20Engineer-BB9AF7?style=for-the-badge&logo=cloudflare&logoColor=1a1b26" alt="goal" />
         </p>
@@ -69,9 +68,19 @@
 
 ---
 
+### 🛠️ Stack I run daily
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=kubernetes,ansible,aws,docker,grafana,prometheus,elasticsearch,git,github,py,linux,ubuntu,bash,powershell,nginx,windows&perline=16" alt="Tech Stack Icons" />
+  </a>
+</p>
+
+**No icon exists for these, but I run them daily:** Proxmox (4-node hyperconverged cluster), Ceph (distributed storage, CRUSH, monmap recovery), Rancher/RKE2, Calico CNI, etcd, Ceph CSI RBD, Cisco networking (VLAN/OSPF/RIP/ACL/NAT), Wazuh SIEM, OSSEC HIDS, ssacli (HP Smart Array RAID).
+
 ### 🗺️ Where I stand
 
-> GitHub doesn't render Mermaid `mindmap` diagrams (platform limitation, verified) — this is a `graph` with clustered subgraphs instead, which renders reliably.
+> GitHub does not render Mermaid `mindmap` diagrams. This is a `graph` with subgraphs instead.
 
 ```mermaid
 graph LR
@@ -87,6 +96,8 @@ graph LR
     subgraph NET[" Network "]
         direction TB
         CALICO["Calico CNI<br/>VTEP & nftables"]:::prod
+        CISCO["VLAN / OSPF / ACL / NAT"]:::prod
+        VPN["VPN & NGINX proxy"]:::prod
     end
 
     subgraph OBS[" Observability "]
@@ -94,21 +105,24 @@ graph LR
         PROM["Prometheus"]:::prod
         GRAF["Grafana"]:::prod
         ALERT["AlertManager"]:::prod
+        ELK["Elasticsearch / Kibana / Fluent-bit"]:::prod
     end
 
     subgraph AUTO[" Automation "]
         direction TB
-        ANSIBLE["Ansible<br/>in progress"]:::learn
+        ANSIBLE["Ansible<br/>14 playbooks, site.yml"]:::prod
+        PYTHON["Python scripting"]:::prod
     end
 
     subgraph CLOUD[" Cloud "]
         direction TB
-        AWS["AWS<br/>~30%"]:::learn
+        AWS["AWS<br/>EC2 / RDS / CI-CD"]:::prod
     end
 
     subgraph SEC[" Security "]
         direction TB
-        CKS["CKS track<br/>roadmap"]:::plan
+        WAZUH["Wazuh SIEM / OSSEC HIDS"]:::prod
+        CKS["CKS track<br/>next certification"]:::plan
     end
 
     ME --> INFRA
@@ -120,7 +134,6 @@ graph LR
 
     classDef me fill:#7aa2f7,stroke:#1a1b26,color:#1a1b26,font-weight:bold,font-size:16px
     classDef prod fill:#9ece6a,stroke:#1a1b26,color:#1a1b26
-    classDef learn fill:#ff9e64,stroke:#1a1b26,color:#1a1b26
     classDef plan fill:#565f89,stroke:#1a1b26,color:#ffffff
 ```
 
@@ -128,7 +141,7 @@ graph LR
 
 ### 🎓 Certifications
 
-<!-- Once you earn a cert, go to its Credly badge page > Share > Embed, and swap the image/link below. Keeping these as "not earned yet" until then — no faking. -->
+<!-- Once you earn a cert, go to its Credly badge page > Share > Embed, and swap the image/link below. -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/CKA-not%20earned%20yet-565F89?style=for-the-badge&logo=kubernetes&logoColor=white" alt="CKA placeholder" />
