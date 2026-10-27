@@ -56,7 +56,7 @@
   </tr>
   <tr>
     <td width="33%" valign="top">I started Computer Science at UIT in 2024. In June 2026 I began an internship running production infrastructure: a 4-node Proxmox cluster, Ceph storage, and a Rancher/RKE2 Kubernetes cluster on physical hardware. I'm now studying for the CKA and AWS Solutions Architect Associate.</td>
-    <td width="33%" valign="top">In August 2026 I published proxmox-lab-portfolio, a fully documented open-source write-up of that infrastructure. My Ansible playbooks deploy the whole cluster through a single site.yml. Networking is my strongest starting point from school, and CCNA, Terraform, and a service mesh lab come next.</td>
+    <td width="33%" valign="top">In August 2026 I published proxmox-lab-portfolio, a fully documented open-source write-up of that infrastructure. My 12 Ansible playbooks deploy the whole cluster through a single site.yml. Networking is my strongest starting point from school, and CCNA, Terraform, and a service mesh lab come next.</td>
     <td width="33%" valign="top">I'm working toward two roles at once: Cloud Security Engineer and Platform Engineer. Both need the same Kubernetes and cloud foundation before they split into CKS and AWS Security Specialty on one side, Terraform and GitOps on the other.</td>
   </tr>
 </table>
@@ -86,7 +86,7 @@
   <img src="https://img.shields.io/badge/Docker-Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
 </p>
 
-**Automation & scripting** — 14 playbooks driven by a single site.yml
+**Automation & scripting** — 12 playbooks driven by a single site.yml
 
 <p align="center">
   <img src="https://img.shields.io/badge/Ansible-Automation-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="Ansible" />
@@ -109,6 +109,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Cisco-VLAN%20%2F%20OSPF%20%2F%20ACL-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco networking" />
+  <img src="https://img.shields.io/badge/Juniper-SRX%20NAT%20%2F%20Zones-84B135?style=for-the-badge&logo=junipernetworks&logoColor=white" alt="Juniper SRX" />
+  <img src="https://img.shields.io/badge/SolarWinds-IPAM%20%2F%20UDT-F99D1C?style=for-the-badge" alt="SolarWinds IPAM and UDT" />
   <img src="https://img.shields.io/badge/NGINX-Reverse%20Proxy-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="NGINX" />
   <img src="https://img.shields.io/badge/Wazuh-SIEM%20%2F%20OSSEC-3AB0FF?style=for-the-badge&logo=wazuh&logoColor=white" alt="Wazuh" />
   <img src="https://img.shields.io/badge/Linux-Firewalling-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
@@ -142,6 +144,8 @@ No icon exists for these, but I've used them directly: git-filter-repo (rewritin
 ### Featured project
 
 **[proxmox-lab-portfolio](https://github.com/Under-Taker1812/proxmox-lab-portfolio)** — 4-node Proxmox + Ceph + Rancher/RKE2 lab, documented end to end with the real bugs I hit and how I fixed each one.
+
+**[solarwinds-ipam-udt-lab](https://github.com/Under-Taker1812/solarwinds-ipam-udt-lab)** — SolarWinds IPAM and UDT test bench with a real Juniper SRX220 and Cisco Catalyst 1200, VLANs, NAT and Tailscale subnet routers; records what the tools found, what they got wrong, and what was never tested.
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D2818,100:22C55E&height=3" alt="" width="100%" /></p>
 
