@@ -3,13 +3,13 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&color=22C55E&center=true&vCenter=true&width=650&lines=DevOps+%2F+Platform+trainee;Running+production+infra+on+real+hardware;Proxmox+%7C+Ceph+%7C+Kubernetes+%7C+Ansible" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&color=22C55E&center=true&vCenter=true&width=650&lines=Infrastructure+on+real+hardware;Cloud+Security+%7C+Platform+Engineering;Proxmox+%7C+Ceph+%7C+Kubernetes+%7C+Ansible" alt="typing" />
 </p>
 
 <table width="100%">
   <tr>
     <td width="60%" valign="top">
-      <p>2nd-year CS student at UIT, Vietnam, currently interning in production infrastructure. I work hands-on across virtualization, Kubernetes, automation, observability, and networking on physical hardware.</p>
+      <p>Computer Science student at UIT, Vietnam (class of 2024). From June to October 2026 I interned on a production infrastructure team, working hands-on with virtualization, Kubernetes, automation, observability and networking on physical hardware.</p>
       <p>
         <img src="https://visitor-badge.laobi.icu/badge?page_id=Under-Taker1812.Under-Taker1812&right_color=22C55E&left_color=0D2818" alt="profile views" />
         <a href="https://github.com/Under-Taker1812">
@@ -17,9 +17,6 @@
         </a>
       </p>
       <p>
-        <a href="https://www.linkedin.com/in/REPLACE_ME/" target="_blank">
-          <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="24" alt="linkedin" />
-        </a>
         <a href="mailto:24560064@gm.uit.edu.vn">
           <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="24" alt="email" />
         </a>
@@ -42,22 +39,98 @@
 
 ### Journey
 
-<table width="100%">
+<table align="center">
   <tr>
-    <td width="33%" valign="top" align="center">
-      <img src="https://img.shields.io/badge/NOW-CKA%20%2B%20AWS%20SAA-22C55E?style=for-the-badge&logo=kubernetes&logoColor=0D2818" alt="now" />
+    <td width="372" rowspan="2" valign="top">
+      <p><img src="https://img.shields.io/badge/BUILT-JUN%20TO%20OCT%202026-22C55E?style=for-the-badge&labelColor=0D2818" alt="Built, June to October 2026" /></p>
+      <p><b>Platform.</b> Four physical servers in one Proxmox VE cluster with shared Ceph storage (8 OSDs, separate pools for VM disks and Kubernetes volumes). Rancher creates RKE2 clusters on demand; Harbor and a GitLab Runner run inside them.</p>
+      <p><b>Observability.</b> One hub (Elasticsearch, Kibana, Prometheus, Grafana) that every cluster ships to.</p>
+      <p><b>Automation.</b> 12 idempotent Ansible playbooks, re-runnable by stage.</p>
+      <p><b>Network test bench.</b> SolarWinds IPAM and UDT on a real Juniper SRX220 and Cisco Catalyst 1200: 13 of 13 gate tests passed, 96 extended scenarios written and left unrun, and the write-up says so.</p>
+      <p><b>Field work.</b> On site for a government ASA-to-FortiGate migration (21 VLANs, about 520 PCs), supporting the Cisco side under a mentor. Wrote PowerShell to export and re-apply share and NTFS permissions for an Active Directory and file server split, dry-run first.</p>
+      <p><b>Documented.</b> More than a dozen real bugs with the debugging path, including an Elasticsearch mapping bug that dropped logs for four days.</p>
     </td>
-    <td width="33%" valign="top" align="center">
-      <img src="https://img.shields.io/badge/NEXT-CCNA%20%7C%20Terraform%20%7C%20Service%20Mesh-16A34A?style=for-the-badge&logo=terraform&logoColor=ffffff" alt="next" />
-    </td>
-    <td width="33%" valign="top" align="center">
-      <img src="https://img.shields.io/badge/GOAL-Cloud%20Security%20%26%20Platform%20Engineer-065F46?style=for-the-badge&logo=cloudflare&logoColor=ffffff" alt="goal" />
+    <td width="372" height="387" valign="top">
+      <p><img src="https://img.shields.io/badge/HOW%20I%20WORK-TEAM%20AND%20SELF-22C55E?style=for-the-badge&labelColor=0D2818" alt="How I work" /></p>
+      <p><b>With a team</b><br>
+      · Talk the problem through before touching it<br>
+      · Split the work, own my part to the end<br>
+      · Stay in scope, ask before crossing it<br>
+      · Back up before every change<br>
+      · Write it down as it happens, bugs and fixes too<br>
+      · Stay calm and accountable under pressure</p>
+      <p><b>On my own</b><br>
+      · Trust evidence, not claims<br>
+      · Understand the mechanism before the fix<br>
+      · Reason it out and explain it to myself<br>
+      · Research, draw the flow, build step by step<br>
+      · Tune the process and keep it secure</p>
     </td>
   </tr>
   <tr>
-    <td width="33%" valign="top">I started Computer Science at UIT in 2024. In June 2026 I began an internship running production infrastructure: a 4-node Proxmox cluster, Ceph storage, and a Rancher/RKE2 Kubernetes cluster on physical hardware. I'm now studying for the CKA and AWS Solutions Architect Associate.</td>
-    <td width="33%" valign="top">In August 2026 I published proxmox-lab-portfolio, a fully documented open-source write-up of that infrastructure. My 12 Ansible playbooks deploy the whole cluster through a single site.yml. Networking is my strongest starting point from school, and CCNA, Terraform, and a service mesh lab come next.</td>
-    <td width="33%" valign="top">I'm working toward two roles at once: Cloud Security Engineer and Platform Engineer. Both need the same Kubernetes and cloud foundation before they split into CKS and AWS Security Specialty on one side, Terraform and GitOps on the other.</td>
+    <td width="372" height="387" valign="top">
+      <p><img src="https://img.shields.io/badge/GOAL-TWO%20ROLES-22C55E?style=for-the-badge&labelColor=0D2818" alt="Goal" /></p>
+      <p>Two roles on one foundation: <b>Cloud Security Engineer</b> and <b>Platform Engineer</b>. Both start with Kubernetes and cloud infrastructure I can build, run and debug myself.</p>
+      <p><b>Security:</b> hardening clusters and cloud accounts, detection, secrets and supply chain.</p>
+      <p><b>Platform:</b> infrastructure as code, GitOps, and internal platforms others can rely on.</p>
+      <p>I want to be the platform engineer who thinks about security first.</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D2818,100:22C55E&height=3" alt="" width="100%" /></p>
+
+### Featured projects
+
+<table width="100%">
+  <tr>
+    <td colspan="2" width="50%" valign="top">
+      <p><img src="https://img.shields.io/badge/FEATURED-PROJECT-22C55E?style=flat-square&labelColor=0D2818" alt="Featured project" /></p>
+      <h3><a href="https://github.com/Under-Taker1812/proxmox-lab-portfolio">proxmox-lab-portfolio</a></h3>
+      <p>A 4-node Proxmox, Ceph and Kubernetes platform on physical servers, documented with every real failure.</p>
+      <p>
+        <img src="https://img.shields.io/badge/license-MIT-22C55E?style=flat-square&labelColor=0D2818" alt="MIT license" />
+        <img src="https://img.shields.io/badge/Proxmox%20VE-0D2818?style=flat-square&logo=proxmox&logoColor=22C55E" alt="Proxmox VE" />
+        <img src="https://img.shields.io/badge/Ceph-0D2818?style=flat-square&logo=ceph&logoColor=22C55E" alt="Ceph" />
+        <img src="https://img.shields.io/badge/Rancher%20RKE2-0D2818?style=flat-square&logo=rancher&logoColor=22C55E" alt="Rancher RKE2" />
+        <img src="https://img.shields.io/badge/Ansible-0D2818?style=flat-square&logo=ansible&logoColor=22C55E" alt="Ansible" />
+      </p>
+      <p>
+        <a href="https://github.com/Under-Taker1812/proxmox-lab-portfolio">
+          <img src="https://img.shields.io/badge/READ%20THE%20WRITE--UP-%E2%86%92-22C55E?style=for-the-badge&labelColor=0D2818&logo=github&logoColor=22C55E" alt="Read the write-up" />
+        </a>
+      </p>
+    </td>
+    <td colspan="2" width="50%" valign="middle" align="center">
+      <a href="https://github.com/Under-Taker1812/proxmox-lab-portfolio">
+        <img src="https://raw.githubusercontent.com/Under-Taker1812/proxmox-lab-portfolio/main/docs/screenshots/proxmox-datacenter-summary.png" alt="Proxmox VE datacenter summary of the live 4-node cluster" width="100%" />
+      </a>
+      <sub>The live cluster, addresses redacted.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center">
+      <img src="https://img.shields.io/badge/NODES-4-22C55E?style=for-the-badge&labelColor=0D2818" alt="4 nodes" />
+      <img src="https://img.shields.io/badge/CPUS-128-22C55E?style=for-the-badge&labelColor=0D2818" alt="128 CPUs" />
+      <img src="https://img.shields.io/badge/STORAGE-6.5%20TiB-22C55E?style=for-the-badge&labelColor=0D2818" alt="6.5 TiB storage" />
+      <img src="https://img.shields.io/badge/PLAYBOOKS-12-22C55E?style=for-the-badge&labelColor=0D2818" alt="12 Ansible playbooks" />
+    </td>
+  </tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td valign="top">
+      <h4><a href="https://github.com/Under-Taker1812/solarwinds-ipam-udt-lab">solarwinds-ipam-udt-lab</a></h4>
+      <p>A test bench for SolarWinds IPAM and UDT with a real Juniper SRX220 and Cisco Catalyst 1200. The write-up lists what was measured and what was never tested. One finding: UDT shows where traffic flows, not where devices exist.</p>
+      <p>
+        <img src="https://img.shields.io/badge/GATE%20TESTS-13%20of%2013-22C55E?style=flat-square&labelColor=0D2818" alt="13 of 13 gate tests" />
+        <img src="https://img.shields.io/badge/SCENARIOS%20LISTED-96-22C55E?style=flat-square&labelColor=0D2818" alt="96 scenarios listed" />
+        <a href="https://github.com/Under-Taker1812/solarwinds-ipam-udt-lab/blob/main/docs/09-test-results.md">
+          <img src="https://img.shields.io/badge/READ%20THE%20FINDINGS-%E2%86%92-22C55E?style=flat-square&labelColor=0D2818" alt="Read the findings" />
+        </a>
+      </p>
+    </td>
   </tr>
 </table>
 
@@ -67,85 +140,79 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=kubernetes,ansible,aws,docker,grafana,prometheus,elasticsearch,git,github,py,linux,ubuntu,bash,powershell,nginx,windows&perline=16" alt="Tech Stack Icons" />
+    <img src="https://skillicons.dev/icons?i=kubernetes,docker,ansible,aws,grafana,prometheus,elasticsearch,git,github,gitlab,py,bash,powershell,linux,ubuntu,windows&perline=16" alt="Tech stack icons" />
   </a>
 </p>
 
-**Virtualization & storage** — hyperconverged clusters, CRUSH, monmap recovery, CSI RBD
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Proxmox-VE-E57000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox" />
-  <img src="https://img.shields.io/badge/Ceph-Storage-EF5C55?style=for-the-badge&logo=ceph&logoColor=white" alt="Ceph" />
-</p>
-
-**Container orchestration** — cluster provisioning, RBAC, workload management
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Kubernetes-RKE2-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/Rancher-Cluster%20Ops-0075A8?style=for-the-badge&logo=rancher&logoColor=white" alt="Rancher" />
-  <img src="https://img.shields.io/badge/Docker-Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-</p>
-
-**Automation & scripting** — 12 playbooks driven by a single site.yml
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Ansible-Automation-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="Ansible" />
-  <img src="https://img.shields.io/badge/Python-Scripting-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-F05032?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</p>
-
-**Observability** — dashboards, alerting rules, log pipelines
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Grafana-Dashboards-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
-  <img src="https://img.shields.io/badge/Prometheus-Metrics-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
-  <img src="https://img.shields.io/badge/Elasticsearch-Search-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch" />
-  <img src="https://img.shields.io/badge/Kibana-Logs-005571?style=for-the-badge&logo=kibana&logoColor=white" alt="Kibana" />
-  <img src="https://img.shields.io/badge/Fluent%20Bit-Shipping-49BDA5?style=for-the-badge&logo=fluentbit&logoColor=white" alt="Fluent Bit" />
-</p>
-
-**Networking & security** — VLANs, OSPF, RIP, ACLs, NAT, SIEM, host hardening
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Cisco-VLAN%20%2F%20OSPF%20%2F%20ACL-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco networking" />
-  <img src="https://img.shields.io/badge/Juniper-SRX%20NAT%20%2F%20Zones-84B135?style=for-the-badge&logo=junipernetworks&logoColor=white" alt="Juniper SRX" />
-  <img src="https://img.shields.io/badge/SolarWinds-IPAM%20%2F%20UDT-F99D1C?style=for-the-badge" alt="SolarWinds IPAM and UDT" />
-  <img src="https://img.shields.io/badge/NGINX-Reverse%20Proxy-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="NGINX" />
-  <img src="https://img.shields.io/badge/Wazuh-SIEM%20%2F%20OSSEC-3AB0FF?style=for-the-badge&logo=wazuh&logoColor=white" alt="Wazuh" />
-  <img src="https://img.shields.io/badge/Linux-Firewalling-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-</p>
-
-**Cloud & OS** — EC2, RDS, CI/CD pipelines
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AWS-EC2%20%2F%20RDS%20%2F%20CI--CD-232F3E?style=for-the-badge" alt="AWS" />
-  <img src="https://img.shields.io/badge/Ubuntu-Server-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
-  <img src="https://img.shields.io/badge/Windows-Server-0078D6?style=for-the-badge" alt="Windows" />
-  <img src="https://img.shields.io/badge/Bash-Scripting-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/PowerShell-Scripting-5391FE?style=for-the-badge" alt="PowerShell" />
-</p>
-
-<details>
-<summary><b>More tools I've used</b> (click to expand)</summary>
-<br>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Tailscale-VPN%20Mesh-242424?style=for-the-badge&logo=tailscale&logoColor=white" alt="Tailscale" />
-  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-</p>
-
-No icon exists for these, but I've used them directly: git-filter-repo (rewriting commit history to strip leaked infrastructure details), ssacli (HP Smart Array RAID management), cloud-init (VM template provisioning), iptables/nftables (NAT rules, Calico policy debugging).
-
-</details>
-
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D2818,100:22C55E&height=3" alt="" width="100%" /></p>
-
-### Featured project
-
-**[proxmox-lab-portfolio](https://github.com/Under-Taker1812/proxmox-lab-portfolio)** — 4-node Proxmox + Ceph + Rancher/RKE2 lab, documented end to end with the real bugs I hit and how I fixed each one.
-
-**[solarwinds-ipam-udt-lab](https://github.com/Under-Taker1812/solarwinds-ipam-udt-lab)** — SolarWinds IPAM and UDT test bench with a real Juniper SRX220 and Cisco Catalyst 1200, VLANs, NAT and Tailscale subnet routers; records what the tools found, what they got wrong, and what was never tested.
+<table width="100%">
+  <tr>
+    <td width="32%" valign="middle"><b>Virtualization &amp; storage</b><br><sub>hyperconverged clusters, CRUSH, monmap recovery, VM templating</sub></td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/Proxmox%20VE-0D2818?style=flat-square&logo=proxmox&logoColor=22C55E" alt="Proxmox VE" />
+      <img src="https://img.shields.io/badge/Ceph-0D2818?style=flat-square&logo=ceph&logoColor=22C55E" alt="Ceph" />
+      <img src="https://img.shields.io/badge/Hyper--V-0D2818?style=flat-square" alt="Hyper-V" />
+      <img src="https://img.shields.io/badge/cloud--init-0D2818?style=flat-square" alt="cloud-init" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle"><b>Containers &amp; orchestration</b><br><sub>cluster provisioning, RBAC, CNI debugging, etcd recovery</sub></td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/Kubernetes%20RKE2-0D2818?style=flat-square&logo=kubernetes&logoColor=22C55E" alt="Kubernetes RKE2" />
+      <img src="https://img.shields.io/badge/Rancher-0D2818?style=flat-square&logo=rancher&logoColor=22C55E" alt="Rancher" />
+      <img src="https://img.shields.io/badge/Docker-0D2818?style=flat-square&logo=docker&logoColor=22C55E" alt="Docker" />
+      <img src="https://img.shields.io/badge/Helm-0D2818?style=flat-square&logo=helm&logoColor=22C55E" alt="Helm" />
+      <img src="https://img.shields.io/badge/Calico-0D2818?style=flat-square" alt="Calico" />
+      <img src="https://img.shields.io/badge/Harbor-0D2818?style=flat-square&logo=harbor&logoColor=22C55E" alt="Harbor" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle"><b>Automation &amp; CI</b><br><sub>12 Ansible playbooks, PowerShell tooling, CI runners</sub></td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/Ansible-0D2818?style=flat-square&logo=ansible&logoColor=22C55E" alt="Ansible" />
+      <img src="https://img.shields.io/badge/Python-0D2818?style=flat-square&logo=python&logoColor=22C55E" alt="Python" />
+      <img src="https://img.shields.io/badge/Bash-0D2818?style=flat-square&logo=gnubash&logoColor=22C55E" alt="Bash" />
+      <img src="https://img.shields.io/badge/PowerShell-0D2818?style=flat-square" alt="PowerShell" />
+      <img src="https://img.shields.io/badge/Git-0D2818?style=flat-square&logo=git&logoColor=22C55E" alt="Git" />
+      <img src="https://img.shields.io/badge/GitLab%20Runner-0D2818?style=flat-square&logo=gitlab&logoColor=22C55E" alt="GitLab Runner" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle"><b>Observability</b><br><sub>dashboards, alerting rules, log pipelines</sub></td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/Prometheus-0D2818?style=flat-square&logo=prometheus&logoColor=22C55E" alt="Prometheus" />
+      <img src="https://img.shields.io/badge/Grafana-0D2818?style=flat-square&logo=grafana&logoColor=22C55E" alt="Grafana" />
+      <img src="https://img.shields.io/badge/Elasticsearch-0D2818?style=flat-square&logo=elasticsearch&logoColor=22C55E" alt="Elasticsearch" />
+      <img src="https://img.shields.io/badge/Kibana-0D2818?style=flat-square&logo=kibana&logoColor=22C55E" alt="Kibana" />
+      <img src="https://img.shields.io/badge/Fluent%20Bit-0D2818?style=flat-square&logo=fluentbit&logoColor=22C55E" alt="Fluent Bit" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle"><b>Networking</b><br><sub>VLANs, OSPF, ACLs, NAT, firewall zones, IP and device tracking</sub></td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/Cisco-0D2818?style=flat-square&logo=cisco&logoColor=22C55E" alt="Cisco" />
+      <img src="https://img.shields.io/badge/Juniper-0D2818?style=flat-square&logo=junipernetworks&logoColor=22C55E" alt="Juniper" />
+      <img src="https://img.shields.io/badge/SolarWinds-0D2818?style=flat-square" alt="SolarWinds" />
+      <img src="https://img.shields.io/badge/Tailscale-0D2818?style=flat-square&logo=tailscale&logoColor=22C55E" alt="Tailscale" />
+      <img src="https://img.shields.io/badge/NGINX-0D2818?style=flat-square&logo=nginx&logoColor=22C55E" alt="NGINX" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle"><b>Security &amp; identity</b><br><sub>SIEM, host hardening, firewalling, directory services</sub></td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/Wazuh-0D2818?style=flat-square" alt="Wazuh" />
+      <img src="https://img.shields.io/badge/iptables%20%2F%20nftables-0D2818?style=flat-square&logo=linux&logoColor=22C55E" alt="iptables and nftables" />
+      <img src="https://img.shields.io/badge/Active%20Directory-0D2818?style=flat-square" alt="Active Directory" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle"><b>Cloud &amp; OS</b><br><sub>EC2, RDS, Linux and Windows servers</sub></td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/AWS-0D2818?style=flat-square" alt="AWS" />
+      <img src="https://img.shields.io/badge/Ubuntu-0D2818?style=flat-square&logo=ubuntu&logoColor=22C55E" alt="Ubuntu" />
+      <img src="https://img.shields.io/badge/Windows%20Server-0D2818?style=flat-square" alt="Windows Server" />
+    </td>
+  </tr>
+</table>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D2818,100:22C55E&height=3" alt="" width="100%" /></p>
 
